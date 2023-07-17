@@ -8268,9 +8268,11 @@ button.bg-dark-75:focus {
 .py-0 {
   padding-bottom: 0 !important; }
 
-.pl-0,
-.px-0 {
-  padding-left: 0 !important; }
+@media (min-width: 992px) {
+  .pl-0, .px-0 { padding-left: 0 !important; } }
+
+@media (max-width: 991.98px) {
+  .pl-0, .px-0 { padding: 2.25rem 0 0 0 !important; } }
 
 .p-1 {
   padding: 0.25rem !important; }
@@ -33506,9 +33508,12 @@ i {
 .card-spacer {
   padding: 2rem 2.25rem !important; }
 
-.card-spacer-x {
-  padding-left: 2.25rem !important;
-  padding-right: 2.25rem !important; }
+@media (min-width: 992px) {
+  .card-spacer-x {
+	padding-left: 2.25rem !important;
+  	padding-right: 2.25rem !important;
+  }
+}
 
 .card-spacer-y {
   padding-top: 2rem !important;
