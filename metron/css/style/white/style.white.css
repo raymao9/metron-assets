@@ -58657,6 +58657,8 @@ body {
       align-items: center;
       padding: 0px 0.25rem;
       padding: 0px 0.25rem ; }
+      .header-menu .menu-nav > .menu-pc-hidden {
+	  display: none; }
       .header-menu .menu-nav > .menu-item > .menu-link > .menu-arrow {
         display: none; }
         .header-menu .menu-nav > .menu-item > .menu-link > .menu-arrow:before {
@@ -59412,6 +59414,8 @@ body {
       overflow: hidden; }
       .header-menu-mobile .menu-nav .menu-separator.menu-separator-marginless {
         margin: 0; }
+    .header-menu-mobile .menu-nav > .menu-mobile-hidden {
+      display: none; }
     .header-menu-mobile .menu-nav > .menu-item {
       position: relative;
       margin: 0 ; }
