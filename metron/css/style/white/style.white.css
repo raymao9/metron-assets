@@ -2003,6 +2003,9 @@ pre {
       border: 0; } }
 
 @media (max-width: 991.98px) {
+  .svg-icon.svg-icon-full svg {
+    height: 0 !important;
+    width: 0 !important; }
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -52223,10 +52226,6 @@ code {
 .svg-icon.svg-icon-10x svg {
   height: 10rem !important;
   width: 10rem !important; }
-
-.svg-icon.svg-icon-full svg {
-  height: 100% !important;
-  width: 100% !important; }
 
 @media (min-width: 576px) {
   .svg-icon.svg-icon-sm-sm svg {
