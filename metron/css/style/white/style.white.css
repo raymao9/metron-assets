@@ -18547,7 +18547,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #b7c5d0 !important; }
 
 .text-success {
-  color: #124891 !important; }
+  color: #ffa800 !important; }
 
 a.text-success:hover, a.text-success:focus {
   color: #12827c !important; }
@@ -46579,7 +46579,7 @@ code {
     background-color: #ECF0F3; }
   .label.label-success {
     color: #ffffff;
-    background-color: #124891; }
+    background-color: #ffa800; }
   .label.label-outline-success {
     background-color: transparent;
     color: #124891;
@@ -46587,8 +46587,8 @@ code {
     .label.label-outline-success.label-outline-2x {
       border: 2px solid #124891; }
   .label.label-light-success {
-    color: #124891;
-    background-color: #C9F7F5; }
+    color: #328fb3;
+    background-color: #e8f3f5; }
   .label.label-info {
     color: #ffffff;
     background-color: #8950FC; }
