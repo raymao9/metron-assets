@@ -18547,7 +18547,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #b7c5d0 !important; }
 
 .text-success {
-  color: #ffa800 !important; }
+  color: #1BC5BD !important; }
 
 a.text-success:hover, a.text-success:focus {
   color: #12827c !important; }
@@ -46579,7 +46579,7 @@ code {
     background-color: #ECF0F3; }
   .label.label-success {
     color: #ffffff;
-    background-color: #ffa800; }
+    background-color: #1BC5BD; }
   .label.label-outline-success {
     background-color: transparent;
     color: #124891;
