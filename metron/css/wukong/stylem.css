@@ -252,7 +252,14 @@ header {
   overflow: hidden;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-area {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
+
   .single-service {
     padding: 30px 25px 30px;
   }
