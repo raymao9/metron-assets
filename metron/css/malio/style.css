@@ -2458,7 +2458,12 @@ pre {
 
 @media (max-width: 575.98px) {
   .page-error .page-search {
-    width: 100%; } }
+    width: 100%; }
+  .page-error h1 {
+    font-size: 6em; }
+  .page-error .page-description {
+    font-size: 14px;
+}
 
 /* 4.4 Layout */
 .main-sidebar {
