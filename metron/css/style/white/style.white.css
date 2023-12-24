@@ -43803,10 +43803,10 @@ code {
   max-width: 500px;
   height: auto;
   position: fixed;
-  left: auto;
+  left: 10px;
   top: auto;
   bottom: 25px;
-  right: 25px;
+  right: auto;
   margin: 0;
   -webkit-box-shadow: 0px 0px 60px -15px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 60px -15px rgba(0, 0, 0, 0.2);
