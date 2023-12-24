@@ -43805,7 +43805,7 @@ code {
   position: fixed;
   left: 10px;
   top: auto;
-  bottom: 25px;
+  bottom: 10px;
   right: auto;
   margin: 0;
   -webkit-box-shadow: 0px 0px 60px -15px rgba(0, 0, 0, 0.2);
@@ -43830,6 +43830,9 @@ code {
       right: 10px; } }
   @media (max-width: 767.98px) {
     .modal.modal-sticky.modal-sticky-bottom-right {
+      left: auto;
+      right: 10px;
+      bottom: 75px;
       max-width: 90%; } }
 
 .modal-open {
