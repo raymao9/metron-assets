@@ -122,8 +122,16 @@
     box-shadow: 0 1px 6px rgb(14, 31, 57);
     /*margin-bottom: 16px;*/
     }
+    .btn-stash {
+        background: linear-gradient(to right, #303030, #303030) !important;
+        color: white !important;
+        border-color: transparent;
+        border: none;
+        box-shadow: 0 1px 6px rgb(48, 48, 48);
+        /*margin-bottom: 16px;*/
+    }
     .btn-surfboard {
-    background: linear-gradient(to right, #303030, #303030) !important;
+    background: linear-gradient(to right, #03dac5, #03a1a3) !important;
     color: white !important;
     border-color: transparent;
     border: none;
