@@ -34387,6 +34387,16 @@ button {
   .nav.nav-pills.nav-primary .nav-link.active:after {
     color: #FFFFFF; }
 
+.nav.nav-pills.nav-primary .nav-link.active-discount {
+    background-color: #F64E60;
+}
+.nav.nav-pills.nav-primary .nav-link.active-discount:hover {
+    background-color: #F64E60 !important;
+}
+.nav .nav-link .nav-text-discount {
+    color: #FFFFFF;
+}
+
 .nav.nav-pills.nav-light-primary .show > .nav-link,
 .nav.nav-pills.nav-light-primary .nav-link:hover:not(.active) {
   color: #2b9dce;
