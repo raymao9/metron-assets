@@ -61708,3 +61708,46 @@ body {
 .footer {
   background-color: #ffffff;
 }
+
+/* 短期方案配色 */
+.bg-radial-gradient-primary-trip {
+    background-color: #5353de;
+    background-image: radial-gradient(circle, rgba(225, 233, 255, 0.4), #5353de 70%);
+}
+.nav.nav-pills.nav-primary .nav-link-trip.active {
+    color: #FFFFFF;
+    background-color: #5353de;
+}
+  .nav.nav-pills.nav-primary .nav-link-trip.active .nav-text {
+    color: #FFFFFF; }
+  .nav.nav-pills.nav-primary .nav-link-trip.active .nav-icon i {
+    color: #FFFFFF; }
+  .nav.nav-pills.nav-primary .nav-link-trip.active .nav-icon .svg-icon svg g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease;
+    fill: #FFFFFF !important; }
+  .nav.nav-pills.nav-primary .nav-link-trip.active .nav-icon .svg-icon svg:hover g [fill] {
+    -webkit-transition: fill 0.3s ease;
+    transition: fill 0.3s ease; }
+  .nav.nav-pills.nav-primary .nav-link-trip.active:after {
+    color: #FFFFFF; }
+
+.nav .nav-link-trip .nav-text {
+    color: #80808F;
+}
+.nav .nav-link-trip .nav-text:hover {
+    color: #5353de;
+}
+.text-trip {
+    color: #5353de !important;
+}
+.btn.btn-trip {
+    background-color: #5353de;
+    border-color: #5353de;
+    color: #FFFFFF;
+}
+.btn.btn-trip:hover {
+    background-color: #8439c8;
+    border-color: #8439c8;
+    color: #FFFFFF;
+}
