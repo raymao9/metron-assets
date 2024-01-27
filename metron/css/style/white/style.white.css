@@ -43421,6 +43421,10 @@ code {
   .dropdown-menu.dropdown-menu-md {
     width: 250px; } }
 
+@media (max-width: 379px) {
+  .dropdown-menu.dropdown-menu-lg {
+    width: 250px; } }
+
 @media (min-width: 380px) {
   .dropdown-menu.dropdown-menu-lg {
     width: 350px; } }
