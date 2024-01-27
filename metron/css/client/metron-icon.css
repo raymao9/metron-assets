@@ -35,12 +35,12 @@
     /*margin-bottom: 16px;*/
     }
     .btn-qqpay {
-      background: linear-gradient(to right, #e8343d, #e8343d) !important;
-      color: white !important;
-      border-color: transparent;
-      border: none;
-      box-shadow: 0 1px 6px #e8343d9a;
-      /*margin-bottom: 16px;*/
+    background: linear-gradient(to right, #e8343d, #e8343d) !important;
+    color: white !important;
+    border-color: transparent;
+    border: none;
+    box-shadow: 0 1px 6px #e8343d9a;
+    /*margin-bottom: 16px;*/
     }
     .btn-sstap,.btn-SSTap {
     background: linear-gradient(to right,#00545b,#149fa0) !important;
@@ -123,12 +123,12 @@
     /*margin-bottom: 16px;*/
     }
     .btn-stash {
-        background: linear-gradient(to right, #008fcb, #1b75eb) !important;
-        color: white !important;
-        border-color: transparent;
-        border: none;
-        box-shadow: 0 1px 6px rgb(48, 48, 48);
-        /*margin-bottom: 16px;*/
+    background: linear-gradient(to right, #008fcb, #1b75eb) !important;
+    color: white !important;
+    border-color: transparent;
+    border: none;
+    box-shadow: 0 1px 6px rgb(48, 48, 48);
+    /*margin-bottom: 16px;*/
     }
     .btn-surfboard {
     background: linear-gradient(to right, #00a888, #03a1a3) !important;
@@ -138,14 +138,22 @@
     box-shadow: 0 1px 6px #03a1a3;
     /*margin-bottom: 16px;*/
     }
+    .btn-proxifier {
+    background: linear-gradient(to right, #3f7ec3, #3f7ec3) !important;
+    color: white !important;
+    border-color: transparent;
+    border: none;
+    box-shadow: 0 1px 6px rgb(14, 31, 57);
+    /*margin-bottom: 16px;*/
+    }
     .btn-uucloud {
-      background: linear-gradient(to right, #d52c8b, #ed5c45) !important;
-      color: white !important;
-      border-color: transparent;
-      border: none;
-      box-shadow: 0 1px 6px #ec2e7f;
-      /*margin-bottom: 16px;*/
-      }
+    background: linear-gradient(to right, #d52c8b, #ed5c45) !important;
+    color: white !important;
+    border-color: transparent;
+    border: none;
+    box-shadow: 0 1px 6px #ec2e7f;
+    /*margin-bottom: 16px;*/
+    }
 
 .pagination-render a {
   color: #6574f7;
