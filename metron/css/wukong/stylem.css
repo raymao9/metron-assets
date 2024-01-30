@@ -35,7 +35,7 @@
 ===========================================================*/
 
 /* ============= 1. IMPORT GOOGLE FONT ============= */
- @import url('https://cdn.jsdelivr.net/gh/raymao9/metron-assets@3.0.3.53/metron/css/wukong/googleapi/Open+Sans-400,600,700,800.css');
+ @import url('googleapi/Open+Sans-400,600,700,800.css');
 
 /* ============= 2. HEADER AREA ============= */
 header {
