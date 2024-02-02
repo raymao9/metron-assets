@@ -265,6 +265,10 @@ header {
   }
 }
 /* ============= 5. ABOUT AREA ============= */
+.about-content {
+  padding-bottom: 60px;
+}
+
 .about-content > h2 {
   margin-bottom: 35px;
 }
@@ -289,6 +293,18 @@ header {
 }
 .about-content > .hero-btn i {
   margin-right: 5px;
+}
+
+@media (max-width: 991px) {
+  .bg-8 {
+      background: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-8 {
+      background: rgba(0, 0, 0, 0) url("bg/8.png") repeat scroll center center / cover;
+  }
 }
 
 /* ============= 6. SECTION HEADDING STYLE ============= */
@@ -516,6 +532,12 @@ header {
 }
 .testimonial-active.owl-theme .owl-controls {
   display: none!important;
+}
+
+@media (max-width: 991px) {
+  .testimonial-area {
+      display: none;
+  }
 }
 
 /* ============= 13. TEAM AREA ============= */
@@ -823,7 +845,7 @@ margin:0;
 
 /* ============= 21. ScrollUp ============= */
 #scrollUp {
-  background: #FA5765 none repeat scroll 0 0;
+  background: #fda775 none repeat scroll 0 0;
   border-radius: 0px;
   bottom: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -838,5 +860,5 @@ margin:0;
   width: 40px;
   z-index: 200;
 }
-#scrollUp:hover{background:#3e3e3e;}
+#scrollUp:hover{background:#fd8773;}
 
