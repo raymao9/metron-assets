@@ -56,6 +56,8 @@
 /* 2. Mixin */
 /* 3. Bootstrap Override */
 /* 3.1 Misc */
+/** googleapi 资源本地化 **/
+@import url('googleapi/Nunito:400,600,700,800.css');
 
 .btn:focus,
 .btn:active,
