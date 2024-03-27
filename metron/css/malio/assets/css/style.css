@@ -53,8 +53,6 @@
 /* 2. Mixin */
 /* 3. Bootstrap Override */
 /* 3.1 Misc */
-/** googleapi 资源本地化 **/
-@import url('googleapi/Nunito:400,600,700,800.css');
 
 .btn:focus,
 .btn:active,
@@ -2981,3 +2979,7 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
   100% {
     -webkit-transform: scale(1.2, 1.2);
     opacity: 0.0; } }
+
+/** Google API Localized **/
+@import url('googleapi/Nunito:400,600,700,800.css');
+@import url('googleapi/Poppins:400,500,700.css');
