@@ -1,3 +1,6 @@
+/** Google API Localized **/
+@import url('googleapi/Nunito:400,600,700,800.css');
+@import url('googleapi/Poppins:400,500,700.css');
 @charset "UTF-8";
 /**
  * Stisla
@@ -54,7 +57,7 @@
 /* 3. Bootstrap Override */
 /* 3.1 Misc */
 /** googleapi 资源本地化 **/
-@import url('googleapi/Nunito-400,600,700,800.css');
+@import url('googleapi/Nunito:400,600,700,800.css');
 
 .btn:focus,
 .btn:active,
@@ -65,14 +68,11 @@
   outline: none; }
 
 a {
-  color: #2b9dce;
+  color: #6777ef;
   font-weight: 500;
   transition: all .5s;
   -webkit-transition: all .5s;
   -o-transition: all .5s; }
-
-a:hover {
-        text-decoration: none; }
 
 a:not(.btn-social-icon):not(.btn-social):not(.page-link) .ion,
 a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fas,
@@ -1531,7 +1531,6 @@ h6 .badge {
 /* 3.18 Navbar */
 .navbar {
   height: 70px;
-  left: 250px;
   right: 5px;
   position: absolute;
   z-index: 890;
@@ -1692,11 +1691,6 @@ h6 .badge {
 
 .nav-collapse {
   display: flex; }
-
-.simple-footer {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px; }
 
 @media (max-width: 575.98px) {
   body.search-show .navbar .form-inline .search-element {
@@ -1962,7 +1956,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   font-family: "Nunito", "Segoe UI", arial;
-  color: #6c757d; }
+  color: #6c757d;
+  -webkit-font-smoothing: antialiased; }
 
 a.bb {
   text-decoration: none;
@@ -2463,12 +2458,7 @@ pre {
 
 @media (max-width: 575.98px) {
   .page-error .page-search {
-    width: 100%; }
-  .page-error h1 {
-    font-size: 6em; }
-  .page-error .page-description {
-    font-size: 14px;
-}
+    width: 100%; } }
 
 /* 4.4 Layout */
 .main-sidebar {
