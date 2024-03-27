@@ -1,6 +1,6 @@
 /** Google API Localized **/
-@import url('googleapi/Nunito:400,600,700,800.css');
-@import url('googleapi/Poppins:400,500,700.css');
+@import url('../../assets/css/googleapi/Nunito:400,600,700,800.css');
+@import url('../../assets/css/googleapi/Poppins:400,500,700.css');
 
 /* Customized */
 footer a {
