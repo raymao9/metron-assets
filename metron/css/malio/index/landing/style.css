@@ -17,10 +17,6 @@ footer a:hover {
 .pricing .pricing-title {
     font-size: 20px;
 }
-.section-design-right:after, .section-design:after {
-    top: 850px;
-    bottom: -650px;
-}
 p.lead {
     font-weight: 400;
 }
@@ -384,8 +380,8 @@ body {
 .section-design-right:after,
 .section-design:after {
     right: 20px;
-    top: 0;
-    bottom: 0;
+    top: 850px;
+    bottom: -650px;
     left: 40px;
     border-radius: 20% 50% 50% 30%;
     transform: skewY(20deg) skewX(-22deg);
