@@ -46,6 +46,7 @@
  * 	  4.3 Page
  * 	  4.4 Layout
  * 	  4.5 Animation
+ *    4.6 Customize
  * 5. Responsive
  *
  */
@@ -53,8 +54,6 @@
 /* 2. Mixin */
 /* 3. Bootstrap Override */
 /* 3.1 Misc */
-/** googleapi 资源本地化 **/
-@import url('googleapi/Nunito-400,600,700,800.css');
 
 .btn:focus,
 .btn:active,
@@ -2994,3 +2993,129 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
   100% {
     -webkit-transform: scale(1.2, 1.2);
     opacity: 0.0; } }
+
+/* 4.6 Customize */
+/** Google API Localized **/
+@import url('googleapi/Nunito-400,600,700,800.css');
+
+/** Malio Theme Customized **/
+footer a {
+    text-decoration:none;
+    color: rgba(255,255,255,.6);
+    border-bottom: 0px solid #fff;
+    padding-bottom: 2px;
+}
+
+footer a:hover {
+    color: rgba(255,255,255,.6);
+    text-decoration: none;
+}
+.pricing .pricing-title {
+    font-size: 20px;
+}
+.section-design-right:after, .section-design:after {
+    top: 850px;
+    bottom: -650px;
+}
+p.lead {
+    font-weight: 400;
+}
+.card .card-body p {
+    font-weight: 400;
+}
+.pricing .pricing-cta-soon a {
+    color: #6c757d70;
+}
+.badge {
+    margin: -5px;
+}
+.logo-sm {
+    max-width:50px;
+    padding-left: 15px;
+}
+.logo-pc {
+    max-width:150px;
+}
+
+@media (max-width: 475px) {
+    .h1, h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 575.98px) and (min-width: 476px) {
+    .h1, h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .h3, h3 {
+        font-size: 24px;
+    }
+    section h2 {
+        font-size: 24px;
+    }
+    .section-design {
+        padding-top: 0px;
+    }
+    .download-section {
+        margin-bottom: -570px;
+        padding: 40px 0;
+    }
+    .callout {
+        box-shadow: 0 0 0px rgba(103,119,239, .1);
+        margin-top: 0px;
+        padding: 40px 30px;
+    }
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .support-us {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .callout {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .hidden-sm {
+        display: none;
+    }
+    .section-design-right {
+        padding: 30px 0;
+    }
+    .section-design-sm {
+        padding: 0;
+    }
+    .navbar .nav-link:hover {
+        color: #ffffff;
+        background: #6777ef;
+    }
+    .navbar .navbar-nav {
+        background-color: #fff;
+        width: 100%;
+        border-radius: .25rem;
+    }
+    .navbar .navbar-nav .nav-link:hover {
+        color: #ffffff;
+        background: #6777ef;
+    }
+    .pricing .pricing-padding {
+        padding: 40px 10px;
+    }
+    p, ul:not(.list-unstyled), ol {
+        line-height: 38px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hidden-pc {
+        display: none;
+    }
+}
