@@ -1647,7 +1647,6 @@ h6 .badge {
   .navbar .navbar-text {
     color: #fff; }
   .navbar .nav-link {
-    color: #f2f2f2;
     padding-left: 15px !important;
     padding-right: 15px !important;
     padding-top: 0 !important;
@@ -1756,8 +1755,6 @@ h6 .badge {
     right: 0; }
     .navbar .dropdown-menu {
       position: absolute; }
-    .navbar .navbar-nav {
-      flex-direction: row; }
   .navbar-expand-lg .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto; } }
