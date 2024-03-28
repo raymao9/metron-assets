@@ -126,6 +126,12 @@ p.lead {
     }
 }
 
+@media (max-width: 1200px) {
+    .pricing .pricing-price div:first-child {
+        font-size: 50px;
+    }
+}
+
 /** Original **/
 img {
     image-rendering: -webkit-optimize-contrast;
