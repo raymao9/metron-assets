@@ -114,6 +114,12 @@ p.lead {
     }
 }
 
+@media screen and (max-width: 991.98px) {
+    .pricing .pricing-price div:first-child {
+         font-size: 30px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .pricing .pricing-price div:first-child {
         font-size: 40px;
@@ -126,7 +132,7 @@ p.lead {
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .pricing .pricing-price div:first-child {
         font-size: 50px;
     }
@@ -1586,13 +1592,6 @@ box-shadow: 0 0 40px rgba(0,0,0,.2);
 }
 .pricing .pricing-price div:first-child {
     font-weight: 600;
-    font-size: 50px;
-}
-
-@media screen and (max-width: 991.98px) {
-    .pricing .pricing-price div:first-child {
-         font-size: 30px;
-    }
 }
 
 /* 移动端菜单显示 */
